@@ -1,0 +1,43 @@
+html,
+body {
+    font-size: 8px;
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #EEE;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.project-intro-text {
+    text-align: center;
+    position: relative;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.container {
+    flex: 1;
+}
+
+.container:first-child {
+    margin-right: 20px;
+}
+
+img {
+    width: 60%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.project-description {
+    font-family: 'Cagliostro', sans-serif;
+    font-size: 6rem;
+    color: #2A403D;
+}

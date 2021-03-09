@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link rel="stylesheet" href="../static/css/style.css" />
+{% endblock %}
+
+{% block title %} Avishi's portfolio {% endblock %}
+
+{% block body %}
+    <div class="swiper-container background-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+
+                <div class="intro-text" id="intro-text">
+                    <h1>Hey, I'm Avishi</h1>
+                    <p>
+                        I write <span class="underline" id="code">code</span> and work on <span class="underline" id="design">design</span>.
+                    </p>
+                </div>
+            </div>
+
+            <div class="swiper-slide centered">
+
+                <div class="sidebar-text">
+                    <h2>My Projects</h2>
+                    <p>
+                        <a href="/neuralArt">NeuralArt Web Application</a><br>
+                        <a href="/colorSwitch">ColorSwitch Game</a><br>
+                        <a href="/ETC">ETC App</a>
+                    </p>
+                </div>
+
+            </div>
+            
+            <div class="swiper-slide centered">
+                <div class="sidebar-text">
+                    <h2>
+                        Let's Connect
+                    </h2>
+                    <p>
+                        Socials <br>
+                        <a href="https://www.linkedin.com/in/avgupt/" style="font-size: 5rem;">LinkedIn</a> <br>
+                        <a href="https://github.com/avgupt" style="font-size: 5rem;">GitHub</a> <br>
+                        Email <br>
+                        <a href="mailto:avishig012@gmail.com" style="font-size: 5rem;">avishig012@gmail.com</a> <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination background-pagination"></div>
+    </div>
+{% endblock %}
+
+{% block js %}
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="../static/js/script.js"></script>
+{% endblock %}

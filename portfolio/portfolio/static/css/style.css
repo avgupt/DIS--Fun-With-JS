@@ -1,0 +1,98 @@
+html,
+body {
+    font-size: 8px;
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #EEE;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+.swiper-container {
+    background: #EEE;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered {
+    text-align: center;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.project-container {
+    height: 50%;
+}
+
+.project-slide {
+    background-color: #2A403D;
+    width: 430px !important;
+}
+
+h1 {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 15rem;
+    color: #D05663;
+}
+
+h2 {
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 12rem;
+    color: #D05663;
+}
+
+p {
+    font-family: 'Cagliostro', sans-serif;
+    font-size: 9rem;
+    color: #2A403D;
+}
+
+.intro-text {
+    opacity : 0;
+    transition : opacity 2s ease;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.loaded {
+    opacity: 1;
+}
+
+.sidebar-text {
+    width: 1000px;
+}
+
+#code, #design {
+    text-decoration: underline;
+    cursor: default;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    color: #2A403D;;
+    text-decoration:none; 
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
